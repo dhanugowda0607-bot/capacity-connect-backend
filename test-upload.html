@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resource Upload Test</title>
+</head>
+<body>
+
+    <h2>Upload Resource</h2>
+
+    <form action="http://localhost:5000/api/resources/upload"
+          method="POST"
+          enctype="multipart/form-data">
+
+        <input type="file" name="resource" required>
+
+        <button type="submit">Upload</button>
+
+    </form>
+
+</body>
+</html>
